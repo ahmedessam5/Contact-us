@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <div class="contact container text-center">
+        <h1 class=" text-danger mt-5 ">contact us</h1>
+        <div class="fname mt-4">
+             <label>Enter The Name</label>
+             <input type="text" class="form-control ">
+             <div id="alertname"  class="display alert alert-danger">
+                  please Enter Your First name and Second name
+             </div>
+      </div>
+
+      <div class="num mt-4">
+        <label>Enter The Phone</label>
+        <input type="number" class="form-control ">
+        <div id="alertnum"  class="display alert alert-danger">
+          phone should contain 11 digits
+        </div> 
+
+      </div>
+
+      
+      <div class="mail mt-4">
+        <label>Enter The Email</label>
+        <input type="email" class="form-control ">
+        <div id="alertmail" class="display alert alert-danger">
+          please Enter Your Email correct
+        </div> 
+
+      </div>
+
+        <button id="btn" class="btn btn-danger mt-3">add</button>
+    </div>
+
+    <div class="container tab mt-5">
+
+        <table class="table text-center">
+            <thead>
+              <tr>
+                <th class="text-danger" scope="col">name</th>
+                <th class="text-danger" scope="col">phone</th>
+                <th class="text-danger" scope="col">email</th>
+              </tr>
+            </thead>
+            <tbody id="add">
+        
+            </tbody>
+          </table>
+    </div>
+
+
+
+
+
+
+
+
+
+<script src="./js/jquery-3.5.1.slim.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
